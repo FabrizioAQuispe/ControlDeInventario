@@ -3,7 +3,7 @@ import React from 'react';
 import { usePathname } from 'next/navigation';
 import Inicio from '../admin/routers/Inicio/page'; // Asegúrate de que la ruta sea correcta
 import Usuarios from '../admin/routers/Configuraciones/page'; // Asegúrate de que la ruta sea correcta
-import Productos from '../admin/routers/Productos/page'; // Asegúrate de que la ruta sea correcta
+import Productos from '../admin/routers/Mantenimiento/page'; // Asegúrate de que la ruta sea correcta
 import Materiales from '../admin/routers/Materiales/page'; // Asegúrate de que la ruta sea correcta
 
 export const Navbar = () => {

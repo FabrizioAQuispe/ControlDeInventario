@@ -24,14 +24,10 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                             Inicio
                         </Link>
                     </li>
+
                     <li className="mb-2">
-                        <Link href="/admin/routers/Configuraciones" className="block px-4 py-2 rounded hover:bg-sky-700">
-                            Configuraciones
-                        </Link>
-                    </li>
-                    <li className="mb-2">
-                        <Link href="/admin/routers/Productos" className="block px-4 py-2 rounded hover:bg-sky-700">
-                            Productos
+                        <Link href="/admin/routers/Mantenimiento" className="block px-4 py-2 rounded hover:bg-sky-700">
+                            Mantenemiento
                         </Link>
                     </li>
                     <li className="mb-2">

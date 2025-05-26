@@ -5,9 +5,10 @@ interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
   children: React.ReactNode;
+  data: any
 }
 
-const Modal = ({ isOpen, onClose, children }: ModalProps) => {
+const ModalEditar = ({ isOpen, onClose, children,data }: ModalProps) => {
   if (!isOpen) return null;
 
   return (
@@ -31,4 +32,4 @@ const Modal = ({ isOpen, onClose, children }: ModalProps) => {
   );
 };
 
-export default Modal;
+export default ModalEditar;
